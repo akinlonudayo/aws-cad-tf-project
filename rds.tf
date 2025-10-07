@@ -9,4 +9,6 @@ resource "aws_db_instance" "mydbinstance" {
   password             = var.DBPassword
   parameter_group_name = var.ParameterGroupName
   skip_final_snapshot  = true
+  multi_az            = false
+  vpc_security_group_ids = [aws_security_group.PublicEC2SG.id]
 }
