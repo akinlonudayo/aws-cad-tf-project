@@ -1,5 +1,3 @@
-I’m excited to share a recent project where I deployed a two-tier web application infrastructure entirely with Terraform — demonstrating the power of Infrastructure as Code (IaC) for automation, scalability, and consistency.
-
 🧱 Project Overview
 
 The setup includes:
